@@ -60,9 +60,9 @@ Install the dependencies by opening your terminal in the project folder and run:
 
 After installation, you should then be able to run the code smoothly! :smile:
 
-***Annexes***
+### Annex
 
-**Datasets**
+***Datasets***
 
 'changi.csv': https://www.kaggle.com/datasets/cyanaspect/singapore-weather/data
 Contains weather data such as Min, Mean and Max Temperature, Min, Mean and Max Windspeed as well as Daily Rainfall from 2014 - 2020
@@ -73,7 +73,7 @@ Contains weather data such as Min, Mean and Max Temperature, Min, Mean and Max W
 'WetBlubTemperatureHourly.csv': https://beta.data.gov.sg/datasets/d_f222c70a7c00c5a5a9d4ec432d67f6e8/view
 Contains hourly Wet Bulb Temperature from 1982 - 2024
 
-**Research Papers**
+***Research Papers***
 
 Stoner, Allan. (2004). Effects of environmental variables on fish feeding ecology: Implications for the performance of baited fishing gear and stock assessment.
 Journal of Fish Biology. 65. 1445 - 1471. 10.1111/j.0022-1112.2004.00593.x. 
