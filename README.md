@@ -40,7 +40,7 @@ This project aims to analyze the trends and patterns of environmental conditions
 |wet_bulb_temperature|float|WetBulbTemperatureHourly|Hourly reading of Wet bulb temperature in °C| 
 ### Installation
 
-*Clone the repository*
+***Cloning the repository***
 
 `gh repo clone qileaf/sg-fishing-guide`
 
@@ -48,11 +48,11 @@ or via html:
 
 `https://github.com/qileaf/sg-fishing-guide.git`
 
-*.ipynb*
+***.ipynb***
 
 The project file is in .ipynb format and was created in VS Code and Jupyter Notebook
 
-*Dependencies*
+***Dependencies***
 
 Install the dependencies by opening your terminal in the project folder and run:
 
@@ -60,3 +60,20 @@ Install the dependencies by opening your terminal in the project folder and run:
 
 After installation, you should then be able to run the code smoothly! :smile:
 
+***Annexes***
+
+**Datasets**
+
+'changi.csv': https://www.kaggle.com/datasets/cyanaspect/singapore-weather/data
+Contains weather data such as Min, Mean and Max Temperature, Min, Mean and Max Windspeed as well as Daily Rainfall from 2014 - 2020
+
+'combined_output.csv': https://www.kaggle.com/datasets/whitecl0ud/weather-data-of-singapore?select=combined_output.csv
+Contains weather data such as Min, Mean and Max Temperature, Min, Mean and Max Windspeed as well as Daily Rainfall from 2020 - 2023
+
+'WetBlubTemperatureHourly.csv': https://beta.data.gov.sg/datasets/d_f222c70a7c00c5a5a9d4ec432d67f6e8/view
+Contains hourly Wet Bulb Temperature from 1982 - 2024
+
+**Research Papers**
+
+Stoner, Allan. (2004). Effects of environmental variables on fish feeding ecology: Implications for the performance of baited fishing gear and stock assessment.
+Journal of Fish Biology. 65. 1445 - 1471. 10.1111/j.0022-1112.2004.00593.x. 
