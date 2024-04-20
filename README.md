@@ -11,6 +11,33 @@ A fishing guide company called SG Fishing Guide operating in the Eastern waters 
 
 This project aims to analyze the trends and patterns of environmental conditions which affect the quality of fishing and forecast the fishing conditions of future dates for the planning of their tiered pricing system.
 
+### Data Dictionary
+
+|Feature|Type|Dataset|Description|
+|---|---|---|---|
+|Station|string|changi|Location of measurement| 
+|Year|integer|changi|Year of measurement| 
+|Month|integer|changi|Month of measurement| 
+|Day|integer|changi|Day of measurement| 
+|Daily Rainfall Total (mm)|float|changi|Total rainfall in mm for the day| 
+|Highest 30 min Rainfall (mm)|float|changi|Highest rainfall recorded in 30min intervals| 
+|Highest 60 min Rainfall (mm)|float|changi|Highest rainfall recorded in 60min intervals| 
+|Highest 120 min Rainfall (mm)|float|changi|Highest rainfall recorded in 120min intervals| 
+|Mean Temperature (°C)|float|changi|Mean temperature in °C for the day| 
+|Maximum Temperature (°C)|float|changi|Max temperature in °C for the day| 
+|Minimum Temperature (°C)|float|changi|Min temperature in °C for the day| 
+|Mean Wind Speed (km/h) |float|changi|Mean wind speed in km/h for the day| 
+|Max Wind Speed (km/h)  |float|changi|Max wind speed in km/h for the day| 
+|Region|string|combined_output|Region of measurement| 
+|Station|string|combined_output|Location of measurement| 
+|Date|string|combined_output|Date of measurement| 
+|Daily_Rainfall_Total|string|combined_output|Total rainfall in mm for the day| 
+|Highest Rainfall (mm) (30,60,120) min|string|combined_output|Highest rainfall recorded in 30, 60 and 120min intervals|
+|Mean,Max,Min Temperature (°C)|string|combined_output|Mean, Max and Min temperature in °C for the day|
+|Mean,Max Wind Speed (km/h)|string|combined_output|Mean and Max wind speed in km/h for the day|
+|wbt_date|string|WetBulbTemperatureHourly|Date of measurement| 
+|wbt_time|integer|WetBulbTemperatureHourly|Hour of the day of measurement| 
+|wet_bulb_temperature|float|WetBulbTemperatureHourly|Hourly reading of Wet bulb temperature in °C| 
 ### Installation
 
 *Clone the repository*
@@ -23,7 +50,7 @@ or via html:
 
 *.ipynb*
 
-The project can be run on Kaggle, Colab or Jupyter Notebook
+The project file is in .ipynb format and was created in VS Code and Jupyter Notebook
 
 *Dependencies*
 
