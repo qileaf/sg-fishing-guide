@@ -48,10 +48,6 @@ or via html:
 
 `https://github.com/qileaf/sg-fishing-guide.git`
 
-***.ipynb***
-
-The project file is in .ipynb format and was created in VS Code and Jupyter Notebook
-
 ***Dependencies***
 
 Install the dependencies by opening your terminal in the project folder and run:
@@ -59,6 +55,10 @@ Install the dependencies by opening your terminal in the project folder and run:
 `pip install -r requirements.txt`
 
 After installation, you should then be able to run the code smoothly! :smile:
+
+***.ipynb***
+
+The project file is in .ipynb format and was created in VS Code and Jupyter Notebook :book:
 
 ### Annex
 
